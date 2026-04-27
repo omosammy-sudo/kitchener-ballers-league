@@ -15,11 +15,11 @@ const results = [
 
 const standings = [
   { team: "The Bull FC", p: 1, w: 1, d: 0, l: 0, gf: 6, ga: 3, gd: "+3", pts: 3 },
-  { team: "Mighty Elephants FC", p: 1, w: 1, d: 0, l: 0, gf: 6, ga: 5, gd: "+1", pts: 3 },
   { team: "City Lion FC", p: 1, w: 1, d: 0, l: 0, gf: 3, ga: 1, gd: "+2", pts: 3 },
+  { team: "Mighty Elephants FC", p: 1, w: 1, d: 0, l: 0, gf: 6, ga: 5, gd: "+1", pts: 3 },
   { team: "Onyx Team", p: 1, w: 0, d: 0, l: 1, gf: 5, ga: 6, gd: "-1", pts: 0 },
-  { team: "Junior Eagles FC", p: 1, w: 0, d: 0, l: 1, gf: 3, ga: 6, gd: "-3", pts: 0 },
-  { team: "Mad Ballers FC", p: 1, w: 0, d: 0, l: 1, gf: 1, ga: 3, gd: "-2", pts: 0 }
+  { team: "Mad Ballers FC", p: 1, w: 0, d: 0, l: 1, gf: 1, ga: 3, gd: "-2", pts: 0 },
+  { team: "Junior Eagles FC", p: 1, w: 0, d: 0, l: 1, gf: 3, ga: 6, gd: "-3", pts: 0 }
 ];
 
 const scorers = [
