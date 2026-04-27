@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kitchener Ballers 6-Aside League</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <p class="eyebrow">Kitchener Ballers</p>
+    <h1>6-Aside League</h1>
+    <p class="tagline">One League. One Passion. One Champion.</p>
+  </header>
+
+  <main class="container">
+    <section class="notice">
+      <strong>Next Matchday:</strong> Matchday 2 • Sunday, May 3, 2026 • 8:30 PM – 10:30 PM • RIM Park
+    </section>
+
+    <section class="grid">
+      <div class="card">
+        <h2>Matchday 2 Fixtures</h2>
+        <table><thead><tr><th>Pitch</th><th>Fixture</th><th>Referee</th></tr></thead><tbody id="fixtures-body"></tbody></table>
+      </div>
+
+      <div class="card">
+        <h2>League Table</h2>
+        <table><thead><tr><th>Pos</th><th>Team</th><th>P</th><th>W</th><th>D</th><th>L</th><th>GF</th><th>GA</th><th>GD</th><th>Pts</th></tr></thead><tbody id="standings-body"></tbody></table>
+      </div>
+
+      <div class="card">
+        <h2>Matchday 1 Results</h2>
+        <table><thead><tr><th>Match</th><th>Score</th></tr></thead><tbody id="results-body"></tbody></table>
+      </div>
+
+      <div class="card">
+        <h2>Goal Scorers</h2>
+        <table><thead><tr><th>Player</th><th>Team</th><th>Goals</th></tr></thead><tbody id="scorers-body"></tbody></table>
+      </div>
+    </section>
+  </main>
+
+  <footer>Play Fair • Respect the Game • Respect the Officials</footer>
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
