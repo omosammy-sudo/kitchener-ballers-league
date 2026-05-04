@@ -11,13 +11,17 @@ renderTable("fixtures-body", fixtures, r => `
   </tr>
 `);
 
-const allResults = results.flatMap(day =>
-  day.games.map(game => ({
-    matchday: day.matchday,
-    match: game.match,
-    score: game.score
-  }))
-);
+const allResults = [];
+
+results.forEach(day => {
+  day.games.forEach(game => {
+    allResults.push({
+      matchday: day.matchday,
+      match: game.match,
+      score: game.score
+    });
+  });
+});
 
 renderTable("results-body", allResults, r => `
   <tr>
