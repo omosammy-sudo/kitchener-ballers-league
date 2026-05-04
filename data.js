@@ -1,25 +1,37 @@
-// UPDATE THIS FILE WEEKLY.
-// Edit fixtures, results, standings, and scorers below, then save and refresh the webpage.
+// UPDATE WEEKLY HERE
 
 const fixtures = [
-  { pitch: "Pitch 1", match: "City Lion FC vs Mighty Elephants FC", referee: "Goody" },
-  { pitch: "Pitch 2", match: "Mad Ballers FC vs The Bull FC", referee: "Kingsley" },
-  { pitch: "Pitch 3", match: "Onyx FC vs Junior Eagles FC", referee: "Denny" }
+  { pitch: "Pitch 1", match: "City Lion FC vs The Bull FC", referee: "TBA" },
+  { pitch: "Pitch 2", match: "Mighty Elephants FC vs Junior Eagles FC", referee: "TBA" },
+  { pitch: "Pitch 3", match: "Mad Ballers FC vs Onyx Team", referee: "TBA" }
 ];
 
 const results = [
-  { match: "Junior Eagles FC vs The Bull FC", score: "3 - 6" },
-  { match: "Onyx FC vs Mighty Elephants FC", score: "5 - 6" },
-  { match: "City Lion FC vs Mad Ballers FC", score: "3 - 1" }
+  {
+    matchday: 1,
+    games: [
+      { match: "Junior Eagles FC vs The Bull FC", score: "3 - 6" },
+      { match: "Onyx Team vs Mighty Elephants FC", score: "5 - 6" },
+      { match: "City Lion FC vs Mad Ballers FC", score: "3 - 1" }
+    ]
+  },
+  {
+    matchday: 2,
+    games: [
+      { match: "City Lion FC vs Mighty Elephants FC", score: "4 - 4" },
+      { match: "Mad Ballers FC vs The Bull FC", score: "3 - 3" },
+      { match: "Onyx Team vs Junior Eagles FC", score: "9 - 4" }
+    ]
+  }
 ];
 
 const standings = [
-  { team: "The Bull FC", p: 1, w: 1, d: 0, l: 0, gf: 6, ga: 3, gd: "+3", pts: 3 },
-  { team: "City Lion FC", p: 1, w: 1, d: 0, l: 0, gf: 3, ga: 1, gd: "+2", pts: 3 },
-  { team: "Mighty Elephants FC", p: 1, w: 1, d: 0, l: 0, gf: 6, ga: 5, gd: "+1", pts: 3 },
-  { team: "Onyx Team", p: 1, w: 0, d: 0, l: 1, gf: 5, ga: 6, gd: "-1", pts: 0 },
-  { team: "Mad Ballers FC", p: 1, w: 0, d: 0, l: 1, gf: 1, ga: 3, gd: "-2", pts: 0 },
-  { team: "Junior Eagles FC", p: 1, w: 0, d: 0, l: 1, gf: 3, ga: 6, gd: "-3", pts: 0 }
+  { team: "The Bull FC", p: 2, w: 1, d: 1, l: 0, gf: 9, ga: 6, gd: "+3", pts: 4 },
+  { team: "City Lion FC", p: 2, w: 1, d: 1, l: 0, gf: 7, ga: 5, gd: "+2", pts: 4 },
+  { team: "Mighty Elephants FC", p: 2, w: 1, d: 1, l: 0, gf: 10, ga: 9, gd: "+1", pts: 4 },
+  { team: "Onyx Team", p: 2, w: 1, d: 0, l: 1, gf: 14, ga: 10, gd: "+4", pts: 3 },
+  { team: "Mad Ballers FC", p: 2, w: 0, d: 1, l: 1, gf: 4, ga: 6, gd: "-2", pts: 1 },
+  { team: "Junior Eagles FC", p: 2, w: 0, d: 0, l: 2, gf: 7, ga: 15, gd: "-8", pts: 0 }
 ];
 
 const scorers = [
