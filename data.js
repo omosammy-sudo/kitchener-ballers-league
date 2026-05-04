@@ -7,17 +7,23 @@ const fixtures = [
 ];
 
 const results = [
-  // MATCHDAY 1
-  { match: "Junior Eagles FC vs The Bull FC", score: "3 - 6" },
-  { match: "Onyx FC vs Mighty Elephants FC", score: "5 - 6" },
-  { match: "City Lion FC vs Mad Ballers FC", score: "3 - 1" },
-
-  // MATCHDAY 2
-  { match: "City Lion FC vs Mighty Elephants FC", score: "4 - 4" },
-  { match: "Mad Ballers FC vs The Bull FC", score: "3 - 3" },
-  { match: "Onyx FC vs Junior Eagles FC", score: "9 - 4" }
+  {
+    matchday: 1,
+    games: [
+      { match: "Junior Eagles FC vs The Bull FC", score: "3 - 6" },
+      { match: "Onyx FC vs Mighty Elephants FC", score: "5 - 6" },
+      { match: "City Lion FC vs Mad Ballers FC", score: "3 - 1" }
+    ]
+  },
+  {
+    matchday: 2,
+    games: [
+      { match: "City Lion FC vs Mighty Elephants FC", score: "4 - 4" },
+      { match: "Mad Ballers FC vs The Bull FC", score: "3 - 3" },
+      { match: "Onyx FC vs Junior Eagles FC", score: "9 - 4" }
+    ]
+  }
 ];
-
 const standings = [
   { team: "The Bull FC", p: 2, w: 1, d: 1, l: 0, gf: 9, ga: 6, gd: "+3", pts: 4 },
   { team: "City Lion FC", p: 2, w: 1, d: 1, l: 0, gf: 7, ga: 5, gd: "+2", pts: 4 },
