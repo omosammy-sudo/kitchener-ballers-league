@@ -34,25 +34,40 @@ const standings = [
 ];
 
 const scorers = [
+  { player: "Leke Kitchener", team: "Onyx Team", goals: 4 },
+  { player: "Michael", team: "Onyx Team", goals: 3 },
   { player: "Daniel Mofe", team: "The Bull FC", goals: 2 },
   { player: "Temidayo", team: "City Lion FC", goals: 2 },
   { player: "Thomas", team: "Onyx Team", goals: 2 },
-  { player: "Ovie", team: "Junior Eagles FC", goals: 1 },
+  { player: "Ifeanyi", team: "City Lion FC", goals: 2 },
+  { player: "Matosa", team: "The Bull FC", goals: 3 },
+  { player: "Larry", team: "Junior Eagles FC", goals: 2 },
+
+  { player: "Ovie", team: "Junior Eagles FC", goals: 2 },
+  { player: "Short Abdul", team: "The Bull FC", goals: 2 },
+  { player: "Fuhad", team: "Mighty Elephants FC", goals: 2 },
+  { player: "Layi", team: "Mighty Elephants FC", goals: 2 },
+  { player: "Hooda", team: "Mighty Elephants FC", goals: 2 },
+  { player: "Indomie", team: "Mighty Elephants FC", goals: 2 },
+
   { player: "Eromosele", team: "Junior Eagles FC", goals: 1 },
   { player: "Isaac", team: "Junior Eagles FC", goals: 1 },
-  { player: "Matosa", team: "The Bull FC", goals: 1 },
-  { player: "Abdul Short", team: "The Bull FC", goals: 1 },
   { player: "Johnny", team: "The Bull FC", goals: 1 },
   { player: "OG", team: "The Bull FC", goals: 1 },
   { player: "Felix", team: "City Lion FC", goals: 1 },
   { player: "Trap Money", team: "Mad Ballers FC", goals: 1 },
-  { player: "Slim Manny", team: "Onyx Team", goals: 1 },
+  { player: "Slim Manny", team: "Onyx Team", goals: 2 },
   { player: "Olamide", team: "Onyx Team", goals: 1 },
-  { player: "Leke Kitchener", team: "Onyx Team", goals: 1 },
   { player: "Mofi", team: "Mighty Elephants FC", goals: 1 },
-  { player: "Fuhad", team: "Mighty Elephants FC", goals: 1 },
-  { player: "Indomie", team: "Mighty Elephants FC", goals: 1 },
   { player: "Kento", team: "Mighty Elephants FC", goals: 1 },
-  { player: "Hooda", team: "Mighty Elephants FC", goals: 1 },
-  { player: "Layi", team: "Mighty Elephants FC", goals: 1 }
+  { player: "Megai", team: "Mad Ballers FC", goals: 1 },
+  { player: "Olu", team: "Mad Ballers FC", goals: 1 },
+  { player: "Japhet", team: "City Lion FC", goals: 1 },
+  { player: "Leke Waterloo", team: "City Lion FC", goals: 1 },
+  { player: "Ayokay", team: "Onyx Team", goals: 1 },
+  { player: "Henry", team: "Junior Eagles FC", goals: 1 }
+];
+
+const ownGoals = [
+  { player: "Short Abdul", team: "The Bull FC", benefitedTeam: "Mad Ballers FC", goals: 1 }
 ];
