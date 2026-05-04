@@ -1,5 +1,6 @@
 function renderTable(id, rows, mapper) {
   const body = document.getElementById(id);
+  if (!body) return;
   body.innerHTML = rows.map(mapper).join("");
 }
 
@@ -11,21 +12,28 @@ renderTable("fixtures-body", fixtures, r => `
   </tr>
 `);
 
-const allResults = [];
-
-results.forEach(day => {
-  day.games.forEach(game => {
-    allResults.push({
-      matchday: day.matchday,
+// Supports BOTH formats:
+// Old: [{ match: "...", score: "..." }]
+// New: [{ matchday: 1, games: [{ match: "...", score: "..." }] }]
+const allResults = results.flatMap(item => {
+  if (item.games) {
+    return item.games.map(game => ({
+      matchday: item.matchday,
       match: game.match,
       score: game.score
-    });
-  });
+    }));
+  }
+
+  return [{
+    matchday: item.matchday || "",
+    match: item.match,
+    score: item.score
+  }];
 });
 
 renderTable("results-body", allResults, r => `
   <tr>
-    <td>Matchday ${r.matchday}: ${r.match}</td>
+    <td>${r.matchday ? `Matchday ${r.matchday}: ` : ""}${r.match}</td>
     <td><strong>${r.score}</strong></td>
   </tr>
 `);
