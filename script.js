@@ -4,6 +4,7 @@ function renderTable(id, rows, mapper) {
   body.innerHTML = rows.map(mapper).join("");
 }
 
+// Fixtures
 renderTable("fixtures-body", fixtures, r => `
   <tr>
     <td><span class="badge">${r.pitch}</span></td>
@@ -12,32 +13,26 @@ renderTable("fixtures-body", fixtures, r => `
   </tr>
 `);
 
-// Supports BOTH formats:
-// Old: [{ match: "...", score: "..." }]
-// New: [{ matchday: 1, games: [{ match: "...", score: "..." }] }]
-const allResults = results.flatMap(item => {
-  if (item.games) {
-    return item.games.map(game => ({
-      matchday: item.matchday,
-      match: game.match,
-      score: game.score
-    }));
-  }
+// Results grouped by Matchday
+const resultsBody = document.getElementById("results-body");
 
-  return [{
-    matchday: item.matchday || "",
-    match: item.match,
-    score: item.score
-  }];
-});
+if (resultsBody) {
+  resultsBody.innerHTML = results.map(day => `
+    <tr>
+      <td colspan="2" style="color:#8bd11f; font-weight:bold; padding-top:14px;">
+        MATCHDAY ${day.matchday}
+      </td>
+    </tr>
+    ${day.games.map(game => `
+      <tr>
+        <td>${game.match}</td>
+        <td><strong>${game.score}</strong></td>
+      </tr>
+    `).join("")}
+  `).join("");
+}
 
-renderTable("results-body", allResults, r => `
-  <tr>
-    <td>${r.matchday ? `Matchday ${r.matchday}: ` : ""}${r.match}</td>
-    <td><strong>${r.score}</strong></td>
-  </tr>
-`);
-
+// Standings
 renderTable("standings-body", standings, (r, i) => `
   <tr>
     <td>${i + 1}</td>
@@ -53,6 +48,7 @@ renderTable("standings-body", standings, (r, i) => `
   </tr>
 `);
 
+// Goal scorers
 renderTable("scorers-body", scorers, r => `
   <tr>
     <td>${r.player}</td>
