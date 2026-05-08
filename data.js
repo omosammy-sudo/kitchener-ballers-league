@@ -1,9 +1,9 @@
 // UPDATE WEEKLY HERE
 
 const fixtures = [
-  { pitch: "Pitch 1", match: "City Lion FC vs The Bull FC", referee: "TBA" },
-  { pitch: "Pitch 2", match: "Mighty Elephants FC vs Junior Eagles FC", referee: "TBA" },
-  { pitch: "Pitch 3", match: "Mad Ballers FC vs Onyx Team", referee: "TBA" }
+  { pitch: "Pitch 1", match: "City Lion FC vs The Bull FC", referee: "Bello" },
+  { pitch: "Pitch 2", match: "Mighty Elephants FC vs Junior Eagles FC", referee: "Kingsley" },
+  { pitch: "Pitch 3", match: "Mad Ballers FC vs Onyx Team", referee: "Goody" }
 ];
 
 const results = [
