@@ -54,7 +54,7 @@ const scorers = [
   { player: "Michael", team: "Onyx Team", goals: 3 },
   { player: "Matosa", team: "The Bull FC", goals: 3 },
   { player: "Drogba", team: "City Lion FC", goals: 3 },
-  { player: "Ola", team: "Onyx Team", goals: 3 },
+  { player: "Ola", team: "Onyx Team", goals: 4 },
 
   { player: "Daniel Mofe", team: "The Bull FC", goals: 2 },
   { player: "Temidayo", team: "City Lion FC", goals: 2 },
