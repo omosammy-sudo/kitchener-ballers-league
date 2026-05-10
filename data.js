@@ -88,11 +88,12 @@ const scorers = [
   { player: "Henry", team: "Junior Eagles FC", goals: 1 },
   { player: "Neme", team: "Mad Ballers FC", goals: 1 },
   { player: "Wilson", team: "Mad Ballers FC", goals: 1 },
-  { player: "Ziko", team: "The Bull FC", goals: 1 },
-  { player: "Big Manny", team: "Onyx Team", goals: 1 }
-  { player: "Oche", team: "Junior Eagles FC", goals: 1 }
-  { player: "Adna", team: "Junior Eagles FC", goals: 1 }  
+{ player: "Ziko", team: "The Bull FC", goals: 1 },
+  { player: "Big Manny", team: "Onyx Team", goals: 1 },
+  { player: "Oche", team: "Junior Eagles FC", goals: 1 },
+  { player: "Adna", team: "Junior Eagles FC", goals: 1 }
 ];
+
 const ownGoals = [
   { player: "Short Abdul", team: "The Bull FC", benefitedTeam: "Mad Ballers FC", goals: 1 }
 ];
