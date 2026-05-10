@@ -45,17 +45,13 @@ const standings = [
 const scorers = [
   { player: "Leke Kitchener", team: "Onyx Team", goals: 8 },
   { player: "Fuhad", team: "Mighty Elephants FC", goals: 8 },
-
   { player: "Mofi", team: "Mighty Elephants FC", goals: 5 },
-
   { player: "Hooda", team: "Mighty Elephants FC", goals: 4 },
-
+  { player: "Ola", team: "Onyx Team", goals: 4 },
   { player: "Trap Money", team: "Mad Ballers FC", goals: 3 },
   { player: "Michael", team: "Onyx Team", goals: 3 },
   { player: "Matosa", team: "The Bull FC", goals: 3 },
   { player: "Drogba", team: "City Lion FC", goals: 3 },
-  { player: "Ola", team: "Onyx Team", goals: 4 },
-
   { player: "Daniel Mofe", team: "The Bull FC", goals: 2 },
   { player: "Temidayo", team: "City Lion FC", goals: 2 },
   { player: "Thomas", team: "Onyx Team", goals: 2 },
@@ -76,7 +72,6 @@ const scorers = [
   { player: "Slim Manny", team: "Onyx Team", goals: 2 },
   { player: "Japhet", team: "City Lion FC", goals: 2 },
   { player: "Leke Waterloo", team: "City Lion FC", goals: 2 },
-
   { player: "Eromosele", team: "Junior Eagles FC", goals: 1 },
   { player: "Isaac", team: "Junior Eagles FC", goals: 1 },
   { player: "Johnny", team: "The Bull FC", goals: 1 },
