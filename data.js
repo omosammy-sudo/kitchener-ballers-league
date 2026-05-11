@@ -53,52 +53,66 @@ const standings = [
 ];
 
 const scorers = [
+  { player: "Fuhad", team: "Mighty Elephants FC", goals: 11 },
+
   { player: "Leke Kitchener", team: "Onyx Team", goals: 8 },
-  { player: "Fuhad", team: "Mighty Elephants FC", goals: 8 },
+
   { player: "Mofi", team: "Mighty Elephants FC", goals: 5 },
+
   { player: "Hooda", team: "Mighty Elephants FC", goals: 4 },
+  { player: "Chibueze", team: "Mighty Elephants FC", goals: 4 },
+  { player: "Trap Money", team: "Mad Ballers FC", goals: 4 },
+  { player: "Ifeanyi", team: "City Lion FC", goals: 5 },
+
   { player: "Ola", team: "Onyx Team", goals: 4 },
-  { player: "Trap Money", team: "Mad Ballers FC", goals: 3 },
+
   { player: "Michael", team: "Onyx Team", goals: 3 },
   { player: "Matosa", team: "The Bull FC", goals: 3 },
   { player: "Drogba", team: "City Lion FC", goals: 3 },
+
+  { player: "Jay", team: "City Lion FC", goals: 2 },
   { player: "Daniel Mofe", team: "The Bull FC", goals: 2 },
   { player: "Temidayo", team: "City Lion FC", goals: 2 },
   { player: "Thomas", team: "Onyx Team", goals: 2 },
-  { player: "Ifeanyi", team: "City Lion FC", goals: 2 },
   { player: "Larry", team: "Junior Eagles FC", goals: 2 },
   { player: "Ovie", team: "Junior Eagles FC", goals: 2 },
   { player: "Short Abdul", team: "The Bull FC", goals: 2 },
-  { player: "Layi", team: "Mighty Elephants FC", goals: 2 },
+  { player: "Layi", team: "Mighty Elephants FC", goals: 3 },
   { player: "Indomie", team: "Mighty Elephants FC", goals: 2 },
   { player: "Josh", team: "Onyx Team", goals: 2 },
   { player: "Justice", team: "City Lion FC", goals: 2 },
-  { player: "Ayo", team: "City Lion FC", goals: 2 },
+  { player: "Ayo", team: "City Lion FC", goals: 3 },
   { player: "Ikenna", team: "Mighty Elephants FC", goals: 2 },
   { player: "Sammy", team: "Mighty Elephants FC", goals: 2 },
   { player: "Wisdom", team: "Mighty Elephants FC", goals: 2 },
   { player: "OG", team: "The Bull FC", goals: 2 },
   { player: "Felix", team: "City Lion FC", goals: 2 },
-  { player: "Slim Manny", team: "Onyx Team", goals: 2 },
+  { player: "Slim Manny", team: "Onyx Team", goals: 3 },
   { player: "Japhet", team: "City Lion FC", goals: 2 },
   { player: "Leke Waterloo", team: "City Lion FC", goals: 2 },
+  { player: "Odun", team: "Junior Eagles FC", goals: 2 },
+  { player: "Kator", team: "Junior Eagles FC", goals: 2 },
+
   { player: "Eromosele", team: "Junior Eagles FC", goals: 1 },
   { player: "Isaac", team: "Junior Eagles FC", goals: 1 },
   { player: "Johnny", team: "The Bull FC", goals: 1 },
   { player: "Olamide", team: "Onyx Team", goals: 1 },
   { player: "Kento", team: "Mighty Elephants FC", goals: 1 },
-  { player: "Megai", team: "Mad Ballers FC", goals: 1 },
+  { player: "Megai", team: "Mad Ballers FC", goals: 2 },
   { player: "Olu", team: "Mad Ballers FC", goals: 1 },
   { player: "Ayokay", team: "Onyx Team", goals: 1 },
   { player: "Henry", team: "Junior Eagles FC", goals: 1 },
-  { player: "Neme", team: "Mad Ballers FC", goals: 1 },
+  { player: "Neme", team: "Mad Ballers FC", goals: 2 },
   { player: "Wilson", team: "Mad Ballers FC", goals: 1 },
-{ player: "Ziko", team: "The Bull FC", goals: 1 },
+  { player: "Ziko", team: "The Bull FC", goals: 2 },
   { player: "Big Manny", team: "Onyx Team", goals: 1 },
   { player: "Oche", team: "Junior Eagles FC", goals: 1 },
-  { player: "Adna", team: "Junior Eagles FC", goals: 1 }
+  { player: "Adna", team: "Junior Eagles FC", goals: 1 },
+  { player: "SK", team: "Onyx Team", goals: 1 },
+  { player: "Feranmi", team: "City Lion FC", goals: 1 },
+  { player: "Kwuams", team: "City Lion FC", goals: 1 },
+  { player: "Memerick", team: "Mighty Elephants FC", goals: 1 }
 ];
-
 const ownGoals = [
   { player: "Short Abdul", team: "The Bull FC", benefitedTeam: "Mad Ballers FC", goals: 1 }
 ];
