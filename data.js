@@ -71,6 +71,7 @@ const scorers = [
   { player: "Layi", team: "Mighty Elephants FC", goals: 3 },
   { player: "Ayo", team: "City Lion FC", goals: 3 },
   { player: "Short Abdul", team: "The Bull FC", goals: 3 },
+    { player: "Felix", team: "City Lion FC", goals: 3 },
   { player: "Daniel Mofe", team: "The Bull FC", goals: 2 },
   { player: "Temidayo", team: "City Lion FC", goals: 2 },
   { player: "Thomas", team: "Onyx Team", goals: 2 },
@@ -86,12 +87,12 @@ const scorers = [
   { player: "Sammy", team: "Mighty Elephants FC", goals: 2 },
   { player: "Wisdom", team: "Mighty Elephants FC", goals: 2 },
   { player: "OG", team: "The Bull FC", goals: 2 },
-  { player: "Felix", team: "City Lion FC", goals: 2 },
   { player: "Neme", team: "Mad Ballers FC", goals: 2 },
   { player: "Leke Waterloo", team: "City Lion FC", goals: 2 },
   { player: "Odun", team: "Junior Eagles FC", goals: 2 },
   { player: "Kator", team: "Junior Eagles FC", goals: 2 },
   { player: "Chif", team: "The Bull FC", goals: 2 },
+  { player: "Feranmi", team: "City Lion FC", goals: 2 },
   { player: "Eromosele", team: "Junior Eagles FC", goals: 1 },
   { player: "Isaac", team: "Junior Eagles FC", goals: 1 },
   { player: "Johnny", team: "The Bull FC", goals: 1 },
@@ -105,7 +106,7 @@ const scorers = [
   { player: "Oche", team: "Junior Eagles FC", goals: 1 },
   { player: "Adna", team: "Junior Eagles FC", goals: 1 },
   { player: "SK", team: "Onyx Team", goals: 1 },
-  { player: "Feranmi", team: "City Lion FC", goals: 1 },
+ 
   { player: "Kwuams", team: "City Lion FC", goals: 1 },
   { player: "Memerick", team: "Mighty Elephants FC", goals: 1 }
 ];
