@@ -92,7 +92,7 @@ const scorers = [
   { player: "Odun", team: "Junior Eagles FC", goals: 2 },
   { player: "Kator", team: "Junior Eagles FC", goals: 2 },
   { player: "Chif", team: "The Bull FC", goals: 2 },
-  { player: "Feranmi", team: "City Lion FC", goals: 1 },
+  { player: "Feranmi", team: "City Lion FC", goals: 2 },
   { player: "Eromosele", team: "Junior Eagles FC", goals: 1 },
   { player: "Isaac", team: "Junior Eagles FC", goals: 1 },
   { player: "Johnny", team: "The Bull FC", goals: 1 },
