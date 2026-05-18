@@ -4,24 +4,41 @@ function renderTable(id, rows, mapper) {
   body.innerHTML = rows.map(mapper).join("");
 }
 
-// Fixtures
-renderTable("fixtures-body", fixtures, r => `
-  <tr>
-    <td><span class="badge">${r.pitch}</span></td>
-    <td>${r.match}</td>
-    <td>${r.referee}</td>
-  </tr>
-`);
+// Season status banner
+const seasonBox = document.getElementById("season-status");
+if (seasonBox && typeof seasonStatus !== "undefined") {
+  seasonBox.innerHTML = `
+    <strong>🏆 ${seasonStatus.title}</strong><br>
+    <span>Champions: ${seasonStatus.champion}</span><br>
+    <span>${seasonStatus.summary}</span><br>
+    <small>${seasonStatus.message}</small>
+  `;
+}
 
-// Results grouped by Matchday
+// Hide fixtures if season is complete
+const fixturesCard = document.getElementById("fixtures-card");
+if (fixturesCard && fixtures.length === 0) {
+  fixturesCard.innerHTML = `
+    <h2>Season Complete</h2>
+    <p class="complete-message">🏆 Mighty Elephants FC are the league champions!</p>
+    <p>Season 2 loading...</p>
+  `;
+} else {
+  renderTable("fixtures-body", fixtures, r => `
+    <tr>
+      <td><span class="badge">${r.pitch}</span></td>
+      <td>${r.match}</td>
+      <td>${r.referee}</td>
+    </tr>
+  `);
+}
+
+// Results by matchday
 const resultsBody = document.getElementById("results-body");
-
 if (resultsBody) {
   resultsBody.innerHTML = results.map(day => `
     <tr>
-      <td colspan="2" style="color:#8bd11f; font-weight:bold; padding-top:14px;">
-        MATCHDAY ${day.matchday}
-      </td>
+      <td colspan="2" class="matchday-heading">MATCHDAY ${day.matchday}</td>
     </tr>
     ${day.games.map(game => `
       <tr>
@@ -54,5 +71,13 @@ renderTable("scorers-body", scorers, r => `
     <td>${r.player}</td>
     <td>${r.team}</td>
     <td><strong>${r.goals}</strong></td>
+  </tr>
+`);
+
+// Awards
+renderTable("awards-body", awards, r => `
+  <tr>
+    <td>${r.award}</td>
+    <td><strong>${r.winner}</strong></td>
   </tr>
 `);
