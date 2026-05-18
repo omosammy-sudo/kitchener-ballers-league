@@ -88,9 +88,9 @@ const scorers = [
   { player: "Short Abdul", team: "The Bull FC", goals: 3 },
   { player: "Kento", team: "Mighty Elephants FC", goals: 3 },
   { player: "Indomie", team: "Mighty Elephants FC", goals: 3 },
+  { player: "Nemerick", team: "Mighty Elephants FC", goals: 3 },
   { player: "Ogo", team: "Mad Ballers FC", goals: 2 },
   { player: "KC", team: "The Bull FC", goals: 2 },
-  { player: "Nemerick", team: "Mighty Elephants FC", goals: 2 },
   { player: "Sunmi", team: "Junior Eagles FC", goals: 2 },
   { player: "Daniel Mofe", team: "The Bull FC", goals: 2 },
   { player: "Temidayo", team: "City Lion FC", goals: 2 },
@@ -121,7 +121,7 @@ const scorers = [
   { player: "Adna", team: "Junior Eagles FC", goals: 1 },
   { player: "SK", team: "Onyx Team", goals: 1 },
   { player: "Kwuams", team: "City Lion FC", goals: 1 },
-  { player: "Memerick", team: "Mighty Elephants FC", goals: 1 }
+
 ];
 
 const ownGoals = [
