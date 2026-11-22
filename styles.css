@@ -455,3 +455,20 @@ footer .footer-brand{
   color:#fff;
 }
 .banner p{margin:0;color:var(--muted)}
+
+/* ---------- Games schedule strip ---------- */
+.schedule-strip{
+  display:flex;
+  flex-wrap:wrap;
+  gap:14px;
+  margin:4px 0 18px;
+}
+.schedule-strip > div{
+  flex:1 1 220px;
+  background:#142416;
+  border:1px solid var(--line);
+  border-left:4px solid var(--green);
+  border-radius:12px;
+  padding:14px 16px;
+  line-height:1.6;
+}
