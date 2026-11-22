@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Kitchener Ballers | Home</title>
-  <link rel="stylesheet" href="styles.css?v=400" />
+  <link rel="stylesheet" href="styles.css?v=401" />
 </head>
 
 <body>
@@ -21,66 +21,136 @@
     <a href="join.html">Join</a>
   </nav>
 
-  <header class="hero">
-    <p class="eyebrow">Kitchener Ballers</p>
-    <h1>6-Aside League</h1>
-    <p class="tagline">One League. One Passion. One Community.</p>
-    <div class="hero-actions">
-      <a class="btn" href="join.html">Join the community</a>
-      <a class="btn outline" href="fees.html">Pay your fees</a>
+  <!-- Hero -->
+  <section class="home-hero">
+    <div class="home-hero-inner">
+      <p class="eyebrow">Welcome to</p>
+      <h1 class="home-title">Kitchener Ballers</h1>
+      <p class="home-lead">One community. One pitch. Every week.</p>
+      <div class="hero-actions">
+        <a class="btn" href="join.html">Join the community</a>
+        <a class="btn outline" href="events.html">See what's on</a>
+      </div>
     </div>
-  </header>
+  </section>
+
+  <!-- Quick links -->
+  <section class="quick-strip">
+    <a class="quick" href="events.html">
+      <span class="quick-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4"/></svg>
+      </span>
+      <span><strong>Games &amp; Events</strong><small>Calendar and sign-ups</small></span>
+    </a>
+    <a class="quick" href="insurance.html">
+      <span class="quick-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg>
+      </span>
+      <span><strong>Insurance</strong><small>Required before you play</small></span>
+    </a>
+    <a class="quick" href="fees.html">
+      <span class="quick-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24"><rect x="2" y="6" width="20" height="13" rx="2"/><path d="M2 10h20M6 15h4"/></svg>
+      </span>
+      <span><strong>Fees &amp; Payment</strong><small>Yearly membership</small></span>
+    </a>
+    <a class="quick" href="results.html">
+      <span class="quick-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>
+      </span>
+      <span><strong>Results</strong><small>Scores and standings</small></span>
+    </a>
+  </section>
 
   <main class="container">
 
-    <section class="notice">
-      Welcome to the Kitchener Ballers. Check the <a href="events.html">events calendar</a> for upcoming games, read the <a href="insurance.html">insurance requirements</a> before your first match, and send any questions through the <a href="faq.html">FAQ</a> or <a href="feedback.html">feedback form</a>.
+    <!-- Feature panels -->
+    <section class="feature">
+      <div class="feature-art art-pitch" aria-hidden="true">
+        <svg viewBox="0 0 400 260" preserveAspectRatio="xMidYMid slice">
+          <rect width="400" height="260" fill="#0d2a14"/>
+          <rect x="20" y="20" width="360" height="220" fill="none" stroke="#8bd11f" stroke-width="3" opacity=".8"/>
+          <line x1="200" y1="20" x2="200" y2="240" stroke="#8bd11f" stroke-width="3" opacity=".8"/>
+          <circle cx="200" cy="130" r="40" fill="none" stroke="#8bd11f" stroke-width="3" opacity=".8"/>
+          <rect x="20" y="75" width="60" height="110" fill="none" stroke="#8bd11f" stroke-width="3" opacity=".8"/>
+          <rect x="320" y="75" width="60" height="110" fill="none" stroke="#8bd11f" stroke-width="3" opacity=".8"/>
+        </svg>
+      </div>
+      <div class="feature-body">
+        <p class="eyebrow">This season</p>
+        <h2>Weekly 6-a-side football in Kitchener</h2>
+        <p>From weekly matchdays to socials and tournaments, everything the league runs is posted here. Check the calendar, sign up for activities, and stay in touch with the committee.</p>
+        <p><a class="btn" href="events.html">Open the calendar</a></p>
+      </div>
+    </section>
+
+    <section class="section-head">
+      <h2>How we run the league</h2>
+      <p>Everything you need, in one place</p>
     </section>
 
     <section class="grid three">
 
-      <div class="card">
-        <h2>Games &amp; Events</h2>
-        <p>See upcoming matchdays, activities, and sign-ups in one calendar.</p>
-        <p><a href="events.html">View the calendar &rarr;</a></p>
-      </div>
+      <a class="tile" href="insurance.html">
+        <span class="tile-num">01</span>
+        <h3>Get insurance</h3>
+        <p>Valid cover is required before your first matchday. Upload your proof in a few clicks.</p>
+        <span class="tile-link">Read more &rarr;</span>
+      </a>
 
-      <div class="card">
-        <h2>Insurance</h2>
-        <p>Every player needs valid insurance before they take the pitch.</p>
-        <p><a href="insurance.html">What you need &rarr;</a></p>
-      </div>
+      <a class="tile" href="fees.html">
+        <span class="tile-num">02</span>
+        <h3>Pay your fees</h3>
+        <p>Yearly membership, due dates, and simple Interac e-Transfer or card payment options.</p>
+        <span class="tile-link">Pay now &rarr;</span>
+      </a>
 
-      <div class="card">
-        <h2>Fees</h2>
-        <p>Yearly membership fees, due dates, and how to pay.</p>
-        <p><a href="fees.html">Pay your fees &rarr;</a></p>
-      </div>
+      <a class="tile" href="faq.html">
+        <span class="tile-num">03</span>
+        <h3>Ask a question</h3>
+        <p>Find quick answers in the FAQ, or send us a question we haven't covered yet.</p>
+        <span class="tile-link">Browse FAQ &rarr;</span>
+      </a>
 
-      <div class="card">
-        <h2>Results</h2>
-        <p>Latest scores, the league table, and top scorers.</p>
-        <p><a href="results.html">See results &rarr;</a></p>
-      </div>
+      <a class="tile" href="feedback.html">
+        <span class="tile-num">04</span>
+        <h3>Share feedback</h3>
+        <p>Raise a complaint or suggest an idea. You can stay anonymous.</p>
+        <span class="tile-link">Send feedback &rarr;</span>
+      </a>
 
-      <div class="card">
-        <h2>Feedback</h2>
-        <p>Share a complaint or suggestion. You can stay anonymous.</p>
-        <p><a href="feedback.html">Send feedback &rarr;</a></p>
-      </div>
+      <a class="tile" href="results.html">
+        <span class="tile-num">05</span>
+        <h3>Results &amp; table</h3>
+        <p>Scores, the league table, and top scorers from every matchday.</p>
+        <span class="tile-link">See results &rarr;</span>
+      </a>
 
-      <div class="card">
-        <h2>Community</h2>
-        <p>Chat with players, get match updates, and meet the committee.</p>
-        <p><a href="join.html">Join us &rarr;</a></p>
-      </div>
+      <a class="tile" href="join.html">
+        <span class="tile-num">06</span>
+        <h3>Join the chat</h3>
+        <p>Get match updates and news, and meet the players and committee.</p>
+        <span class="tile-link">Join now &rarr;</span>
+      </a>
 
+    </section>
+
+    <!-- Community banner -->
+    <section class="banner">
+      <div>
+        <h2>Be part of the Kitchener Ballers</h2>
+        <p>Join the community chat for updates, reminders, and the people behind the league.</p>
+      </div>
+      <a class="btn" href="join.html">Join the community</a>
     </section>
 
   </main>
 
   <footer>
-    Kitchener Ballers &middot; <a href="mailto:kitchenerballers.com@gmail.com">kitchenerballers.com@gmail.com</a>
+    <p class="footer-brand">Kitchener Ballers</p>
+    <p>
+      <a href="mailto:kitchenerballers.com@gmail.com">kitchenerballers.com@gmail.com</a>
+    </p>
   </footer>
 
 </body>
